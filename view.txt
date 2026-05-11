@@ -1,0 +1,103 @@
+from rest_framework.generics import ListAPIView,RetrieveAPIView, CreateAPIView, DestroyAPIView,UpdateAPIView, ListCreateAPIView, RetrieveUpdateDestroyAPIView
+from .models import Category, Post
+from .serializers import CategorySerializer, PostSerializer
+
+
+# GET and POST request
+# ListCreateAPIView  -> use for both getting all categories and create new category
+class CategoryListCreateView(ListCreateAPIView):
+    queryset = Category.objects.all()
+    serializer_class = CategorySerializer
+    
+
+# RetrieveUpdateDestroyAPIView -> GET(single data), PATCH/PUT and DELETE request
+# Retrive -> use to get single category, Update -> update category and 
+# Destroy -> delete category 
+
+class CategoryRetriveUpdateDistroyView(RetrieveUpdateDestroyAPIView):
+    queryset = Category.objects.all()
+    serializer_class = CategorySerializer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # get all categories using ListAPIView
+# # GET request
+# # when client request categories list, this return categories from category model
+# class CategoryListView(ListAPIView):
+#     queryset = Category.objects.all()
+#     serializer_class = CategorySerializer
+    
+# # Get single category
+# # RetriveAPIView -> fetch single data
+# class CategoryRetriveView(RetrieveAPIView):
+#     queryset = Category.objects.all()
+#     serializer_class = CategorySerializer
+
+# # POST request -> create new category
+# # CreateAPIView -> add new category to db
+# class CategoryCreateView(CreateAPIView):
+#     queryset = Category.objects.all()
+#     serializer_class = CategorySerializer    
+
+
+# # DELETE request -> delete a category
+# # DestroyAPIView -> delete category from db
+# class CategoryDeleteView(DestroyAPIView):
+#     queryset = Category.objects.all()
+#     serializer_class = CategorySerializer
+
+# # UPDATE request -> update a category
+# # UpdateAPIView -> update category from db
+# class CategoryUpdateView(UpdateAPIView):
+#     queryset = Category.objects.all()
+#     serializer_class = CategorySerializer    
+    
+
+# # GET request 
+# # get all posts
+# class PostListView(ListAPIView):
+#     queryset = Post.objects.all()
+#     serializer_class = PostSerializer    
+
+
+
+
+
+
+
+
+<<<<<<<<<<<<< urls.py >>>>>>>>>>>>>>>.
+# urlpatterns = [
+#     # GET -> http://127.0.0.1:8000/api/categories/
+#     path('categories/',CategoryListView.as_view()),
+    
+#     # GET -> http://127.0.0.1:8000/api/categories/10/  
+#     # 10 = get category with id 10
+#     path('categories/<int:pk>/', CategoryRetriveView.as_view()),
+    
+#     # POST -> http://127.0.0.1:8000/api/categories/create/
+#     path('categories/create/',CategoryCreateView.as_view()),
+    
+#     # DELETE -> http://127.0.0.1:8000/api/categories/delete/10/  
+#     path('categories/delete/<int:pk>/', CategoryDeleteView.as_view()),
+    
+#     # PATCH -> http://127.0.0.1:8000/api/categories/update/10/  
+#     path('categories/update/<int:pk>/', CategoryUpdateView.as_view()),
+    
+#     # http://127.0.0.1:8000/api/posts/
+#     path('posts/',PostListView.as_view())
+# ]
