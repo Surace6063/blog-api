@@ -1,4 +1,4 @@
 .venv/
 api/media/
 
-api/db.sqlite3/
+api/db.sqlite3
