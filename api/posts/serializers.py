@@ -10,6 +10,7 @@ class CategorySerializer(serializers.ModelSerializer):
 
 # post serializer
 class PostSerializer(serializers.ModelSerializer):
+    category = serializers.CharField(source="category.name")
     class Meta:
         model = Post     # poat model  
         fields = '__all__'   # select all post field        

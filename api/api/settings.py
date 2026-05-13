@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     
     # third-part app
     "rest_framework",
+    'django_filters',
     
     
     # app
@@ -36,6 +37,11 @@ INSTALLED_APPS = [
     'users'
 ]
 
+REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': (
+        'django_filters.rest_framework.DjangoFilterBackend',
+    ),
+}
 
 
 MIDDLEWARE = [

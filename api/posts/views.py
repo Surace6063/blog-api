@@ -1,6 +1,8 @@
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 from .models import Category, Post
 from .serializers import CategorySerializer, PostSerializer
+from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework.filters import SearchFilter,OrderingFilter
 
 
 # GET and POST request
@@ -8,6 +10,10 @@ from .serializers import CategorySerializer, PostSerializer
 class CategoryListCreateView(ListCreateAPIView):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
+    
+    filter_backends = [DjangoFilterBackend,SearchFilter,OrderingFilter]
+    search_fields = ['name']
+    ordering_fields = ['name']
     
 
 # RetrieveUpdateDestroyAPIView -> GET(single data), PATCH/PUT and DELETE request
@@ -25,6 +31,10 @@ class CategoryRetriveUpdateDistroyView(RetrieveUpdateDestroyAPIView):
 class PostListCreateView(ListCreateAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+    filter_backends = [DjangoFilterBackend,SearchFilter,OrderingFilter]
+    filterset_fields = ['category__name','author','is_published']
+    search_fields = ['title','description']
+    ordering_fields = ['created_at','title']
     
 
 # RetrieveUpdateDestroyAPIView -> GET(single data), PATCH/PUT and DELETE request

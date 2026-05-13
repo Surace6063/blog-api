@@ -1,0 +1,198 @@
+[
+  {
+    "model": "posts.post",
+    "pk": 10,
+    "fields": {
+      "title": "Discovery is the work AI gives back",
+      "category": 11,
+      "description": "For our sixth Partner Program update, we will pay editors for the work you do to bring out the best of writing on Medium.\r\n\r\nMedium editors do incredibly important work � not just on Medium, but for readers and writers of the internet. You build communities where writing is joyful, and elevate that writing to readers. That is more and more rare on the internet.\r\n\r\nWe have heard from Medium users of all kinds how much work, time, energy, and love it takes to run a successful publication. So we�re launching a new Editor Partner Program as a way to show editors how much your work is appreciated and giving you a share in the success of the stories you work on.\r\n\r\nThe TL;DR is that when a publication editor in a qualifying publication assigns themselves to a story in the publication submission queue, that editor earns 25% of what the story earns. The writer will keep all their original earnings. We designed it this way to build off the expertise of editors and take advantage of the changes we�ve built into the Partner Program. As editors edit stories to reach wider audiences, external audiences, and bring new members, those stories � and their editors � will earn more.",
+      "author": "zoro",
+      "is_published": true,
+      "image": "posts/1_RxOSXERrCaLlvRA0keMHQA.webp",
+      "created_at": "2026-05-12T06:27:08.100Z",
+      "updated_at": "2026-05-12T06:27:08.100Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 11,
+    "fields": {
+      "title": "Why writing still wins in the AI era",
+      "category": 11,
+      "description": "What is the sound of loving writing?\r\n\r\nIt may sound strange to say it, but I know the answer. I�ve heard it, even.\r\n\r\nAt Medium�s most recent company offsite, we tried something new: Every morning, when we gathered together to start our day, we took a page out of The Artist�s Way and spent 15 minutes writing morning pages together. And for those 15 minutes, the room where the 75 of us gathered was totally quiet�except for the sound of typing. Now, if you haven�t been so fortunate to be in a room of 75 people quietly typing out their thoughts, you wouldn�t know that it sounds an awful lot like the sound of soft rain. And you wouldn�t know that it would be so deeply peaceful, or that it would maybe make the small hairs on the back of your neck tingle the first time you heard it. You wouldn�t know it�s the sound of loving writing.\r\n\r\nBut we do. At Medium, we love writing.\r\n\r\nWe�ve loved writing since we launched in 2012, it�s why we built a simple, beautiful space for writing, uncrowded and serene. It�s why since 2017 we�ve been pursuing a subscription business model, and not filling Medium with ads and pop ups. It�s why, now, we�re working on TK, our forthcoming writing app, which is all about making writing easier and more fun.\r\n\r\nWe love what writing does for people, how it allows us to share our experience and learn from one another, how it lets us learn about ourselves. Our goal, after all, is to deepen our collective understanding of the world through the power of writing (it�s right there on our about page).\r\n\r\nWriting remains, after thousands of years, our most enduring technology. But as the open internet grows worse � filled with slop, covered in ads � any oasis of valuable writing will become that much more necessary, more essential. Writing is changing right now, and the whole world is changing around it. I�d like to talk first a bit about how finding stories on the internet has changed, how we are seeing those changes come for writing on the internet (or, at least, on Medium), and why, in spite of it all, we�re betting on a write-wards shift.",
+      "author": "zoro",
+      "is_published": true,
+      "image": "posts/1_uRFQ68X3yhABu_2-JBWGnw.webp",
+      "created_at": "2026-05-12T06:27:58.111Z",
+      "updated_at": "2026-05-12T06:27:58.111Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 12,
+    "fields": {
+      "title": "If You Understand These 5 AI Terms, You�re Ahead of 90% of People",
+      "category": 11,
+      "description": "Let me be frank.\r\n\r\nMost people who talk about AI either sound like they�re giving textual definitions, or they�re completely clueless when someone mentions terms like LLMs or neural networks.\r\n\r\nYou don�t have to be either of them.\r\n\r\nI believe that there are these 5 terms, 5 concepts that, if you actually understand them (not just memorise), you�ll be miles ahead of almost everyone else in the room. Whether you�re in tech, business, education, or just someone curious about where the world is heading.\r\n\r\nLet�s start.\r\n\r\n1. Tokens\r\nThe very first thing that you must register in your brain is that AI models don�t read words. They don�t even read letters. They read tokens.\r\n\r\nSo what�s a token?\r\n\r\nImagine you�re reading a book, but instead of reading all the words, you�re reading chunks of words. Sometimes a chunk is a complete word like �cat.� Sometimes it�s part of a word like �un� or �tion.� Sometimes it�s punctuation. That piece of text (chunk) is a token.",
+      "author": "luffy",
+      "is_published": true,
+      "image": "posts/1_qbVrf-wO9PYtthAj6E4RYQ.webp",
+      "created_at": "2026-05-12T06:29:35.272Z",
+      "updated_at": "2026-05-12T06:29:35.272Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 13,
+    "fields": {
+      "title": "How Much Does Financial Stability Shape Mental Health?",
+      "category": 12,
+      "description": "�Unpopular opinion: many mental health issues disappear when bills are paid, rent is secure, and the fridge is full. Peace is expensive, and pretending money doesn�t affect mental health is privilege.�\r\n\r\nThere aren�t many times in a day when you read something that just gets your mind spinning, but this did it for me.\r\n\r\nIt�s a commonplace statement, so I can�t quote it, but it sparked an immediate reaction in me, by getting me to think deeper about the impact of money on my mental health.\r\n\r\nPersonally, money doesn�t guarantee happiness, but it certainly eases pressure. That said, it doesn�t completely ease my mind. It�s not that simple. This is just my take on this statement in a nutshell.\r\n\r\nFor some, this statement may feel like an uncomfortable truth. For others, it oversimplifies a deeply complex issue.\r\n\r\nThe real discussion\r\nI just wanted to have this out there for thought. That�s it.\r\n\r\nI�m not trying to persuade one way or the other, because everyone has their own take on this and can make up their own minds as they see fit.",
+      "author": "chopper",
+      "is_published": true,
+      "image": "posts/1_23WqCan1KtpX1piGiMrvHw.webp",
+      "created_at": "2026-05-12T06:31:04.376Z",
+      "updated_at": "2026-05-12T06:31:04.376Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 14,
+    "fields": {
+      "title": "The Impact of Summer on Health & Energy :",
+      "category": 12,
+      "description": "Summer has a powerful impact on both our health and energy levels influencing the way our body functions and how we feel throughout the day As temperatures rise the human body naturally works harder to maintain a stable internal temperature This process often leads to increased sweating which can result in dehydration if fluids are not replaced properly When the body loses too much water it can cause fatigue dizziness headaches and a noticeable drop in energy That is why staying hydrated becomes one of the most important aspects of maintaining health during the summer season.\r\n\r\nAnother significant effect of summer is on our daily energy levels The intense heat can make even simple tasks feel exhausting as the body uses extra energy to stay cool People often feel more tired less motivated and sometimes even irritable due to prolonged exposure to high temperatures Sleep patterns can also be disturbed especially during hot nights which further reduces energy and affects overall well being A lack of proper rest can weaken concentration mood and productivity making it harder to stay active and focused.\r\n\r\nAt the same time summer can also bring positive effects if managed wisely Longer daylight hours encourage outdoor activities physical exercise and exposure to sunlight which helps the body produce vitamin D This vitamin plays an essential role in�",
+      "author": "chopper",
+      "is_published": false,
+      "image": "posts/1_ZQ4qUYfIc7bY7w0A40BrZg.webp",
+      "created_at": "2026-05-12T06:32:19.732Z",
+      "updated_at": "2026-05-12T06:32:19.732Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 15,
+    "fields": {
+      "title": "Role of Routine in Stabilizing Mental Health",
+      "category": 12,
+      "description": "The first impulse in human brain, when things take an unexpected turn, is to pause daily flow, whether for a brief period or longer time. It asks to withdraw, indulge in overthinking, or go off the track.\r\n\r\nBut, there�s something that interrupts this spiral, gives you something steady to return to, even when there�s inner turbulence. It reminds you that not everything is broken, that some parts of life are still holding together and progressing. It creates space for healing, saves you from being consumed by the intensity of the event, and helps you move alongside it.\r\n\r\nSo, you still eat, work, and rest, not ideally, but with reliable repetition,\r\nconsistently enough to keep overwhelm from dominating your emotional state. It�s the routine that prevents emotions from escalating too far. It regulates the brain by telling you that you can�t give up because there�s still work to do.\r\n\r\nThe purpose of a routine should be reducing exertion, not to administer\r\nperfect behavior. A good routine is simple enough to carry on even during tough moments, connected with the habits one already has, built to resume after it breaks, and flexible enough to feel like support, not a trap.",
+      "author": "sanji",
+      "is_published": true,
+      "image": "posts/1_5rM8cn95uAsZ_PSsX0LE3A.webp",
+      "created_at": "2026-05-12T06:33:05.273Z",
+      "updated_at": "2026-05-12T06:33:05.273Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 16,
+    "fields": {
+      "title": "Where Green Meets Peace: A Journey Into Nature�s Calm",
+      "category": 13,
+      "description": "Last Sunday I went outside after spending almost the whole week indoors. My mind felt heavy because of studies and daily stress. I was not looking for anything\r\n\r\nspecial. I just wanted some quiet time away from noise and screens. As I walked near a small green field close to my area I suddenly felt lighter inside. The wind was soft and the evening sky looked calm. For a few minutes everything felt peaceful.\r\n\r\nI think many people feel this way when they spend time close to nature. Life has become very busy now. Most people wake up tired and sleep tired. Everyone is running toward something but very few people stop to rest their minds. That is why green places feel different. They give a kind of silence that the heart needs.\r\n\r\nWhen I was a child I used to visit my grandmother�s village during summer holidays. I still remember the smell of wet soil after rain and the sound of birds early in the morning. Those moments were simple but they felt real. Nobody was in a hurry there. People sat together in the evening and enjoyed small things. Maybe that is why those memories still feel warm even today.\r\n\r\nNature also teaches patience. Trees do not grow in one day. Rivers do not rush. Everything moves slowly and peacefully. Human life should also have that balance. Sometimes people become so�",
+      "author": "brook",
+      "is_published": true,
+      "image": "posts/1_W7EXme6hOVc2-7g_yIJgJQ.webp",
+      "created_at": "2026-05-12T06:34:37.436Z",
+      "updated_at": "2026-05-12T06:34:37.436Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 17,
+    "fields": {
+      "title": "15 Programming Lessons I Learned from 10 Years of Coding",
+      "category": 14,
+      "description": "I�ve been writing code for over 10 years.\r\n\r\nDuring this time, I�ve worked in large corporations full of legacy code and small startups that changed strategy almost every week. I�ve also mentored more than 50 software developers, helping many of them grow into Senior developers and beyond.\r\n\r\nAlong the way, I�ve seen projects fail and projects succeed.\r\n\r\nIn this article, I�ll share 15 things I wish I knew when I was a new developer just starting my career.\r\n\r\n1. Stick to One Framework\r\nFor the first 3�5 years of coding, try to focus on one framework. Ignore the constant noise on tech Twitter about the �next big framework.�\r\n\r\nInstead, pick one and master it. When you truly understand one technology, it becomes much easier to learn others later.\r\n\r\nMany developers make the mistake of jumping from one shiny framework to another. After years of coding, they still struggle with the basics because they never mastered one thing deeply.\r\n\r\nDon�t do that. Pick your hill and own it.\r\n\r\nIf you are a JavaScript developer, any popular framework is a good choice � React, Angular, Vue, or Node.js�",
+      "author": "brook",
+      "is_published": true,
+      "image": "posts/1_iBQGXYFiz1ABdhbO8KSqUA.webp",
+      "created_at": "2026-05-12T06:36:59.701Z",
+      "updated_at": "2026-05-12T06:36:59.701Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 18,
+    "fields": {
+      "title": "10 Advanced Java Collections Tricks Every Senior Developer Should Know",
+      "category": 14,
+      "description": "The Java Collection Framework (JCF) is a set of classes and interfaces that provides ready-made data structures to store and manipulate groups of objects efficiently.\r\n\r\nJava offers powerful collection interfaces such as List, Set, Map, and Queue, along with ready-to-use implementations like ArrayList, HashSet, HashMap, and PriorityQueue. These built-in tools save developers from writing complex data-handling code from scratch, improving productivity, maintainability, and performance.\r\n\r\nJava�s Collections Framework is one of the most powerful parts of the language � yet also one of the most misunderstood. While most developers are familiar with the basics of List, Set, and Map, senior engineers often unlock advanced features and subtle tricks that make code faster, safer, and more expressive.\r\n\r\nIn this article, we�ll explore 10 advanced Java Collections tricks that every senior developer should know � explained clearly with real-world examples so students and professionals alike can benefit.\r\n\r\n1. Use Collections.emptyList(), emptySet(), emptyMap() Instead of Creating New Empty Collections",
+      "author": "zoro",
+      "is_published": true,
+      "image": "posts/1_8mDss3asu4X6DeWzUuW_xA.webp",
+      "created_at": "2026-05-12T06:37:43.430Z",
+      "updated_at": "2026-05-12T06:37:43.430Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 19,
+    "fields": {
+      "title": "7 Python Libraries That Instantly Upgraded My Workflow",
+      "category": 14,
+      "description": "Most Python libraries save you a few lines.\r\n\r\nA few of them save you from architectural regret.\r\n\r\nAfter enough years working on APIs, scraping systems, ETL jobs, internal tools, and debugging production issues at 2AM while pretending caffeine still works, you stop caring about �cool� libraries.\r\n\r\nYou start caring about libraries that quietly remove friction.\r\n\r\nNot the libraries everyone tweets about.\r\n\r\nThe ones that make you pause halfway through a project and think:\r\n\r\n�Wait� why wasn�t I using this three years ago?�\r\n\r\nHere are 7 Python libraries that genuinely changed how I build things.\r\n\r\nAnd no, this isn�t another article recommending requests, rich, or pandas.\r\n\r\nYou already know those.\r\n\r\n1. msgspec � Serialization Without the Pydantic Tax\r\nI ignored msgspec for months because I assumed it was another �faster JSON parser� benchmark war.\r\n\r\nThen I used it inside a high-throughput ingestion service.",
+      "author": "luffy",
+      "is_published": true,
+      "image": "posts/0_Q0a_k3m49OX_bIXy.webp",
+      "created_at": "2026-05-12T06:38:46.918Z",
+      "updated_at": "2026-05-12T06:38:46.918Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 20,
+    "fields": {
+      "title": "Pure CSS Loading Animations � 10 Beautiful Spinners Without a Single Line of JS",
+      "category": 14,
+      "description": "Creating elegant, high-performance loading animations doesn�t require heavy JavaScript libraries. By leveraging CSS Keyframes and Transforms, you can build spinners that are smooth, accessible, and lightweight.\r\n\r\nHere are 10 distinct, production-ready CSS spinners with the complete code you need to implement them immediately.\r\n\r\n1. The Classic Dual Ring\r\nA timeless, minimalist spinner that uses a simple border-radius and a single rotation.\r\n\r\n<div class=\"dual-ring\"></div>\r\n.dual-ring {\r\n  width: 64px;\r\n  height: 64px;\r\n  border-radius: 50%;\r\n  border: 6px solid #3498db;\r\n  border-color: #3498db transparent #3498db transparent;\r\n  animation: dual-ring 1.2s linear infinite;\r\n}\r\n\r\n@keyframes dual-ring {\r\n  0% { transform: rotate(0deg); }\r\n  100% { transform: rotate(360deg); }\r\n}",
+      "author": "nami",
+      "is_published": true,
+      "image": "posts/1_0D4VTR21lSsnLWEDUWS7_Q.webp",
+      "created_at": "2026-05-12T06:39:37.545Z",
+      "updated_at": "2026-05-12T06:39:37.545Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 21,
+    "fields": {
+      "title": "East Blue: One Piece Analysis",
+      "category": 15,
+      "description": "I recently started rewatching One Piece with my wife, who is watching it for the first time. I first watched One Piece as a 12 year old, nearly two decades ago. I loved it then, as I do now. But my appreciation for its storytelling and literary exceptionalism has deepened over the years.\r\n\r\nThough I�ve rewatched and reread parts of it countless times, this sequential rewatching, particularly through the eyes of someone who is experiencing it afresh, feels like a unique opportunity to reflect on the story and on Oda�s evolution as a writer.\r\n\r\nThis article will discuss the East Blue saga (up to the end of the Logue Town arc). It will be free of spoilers for subsequent arcs. While the article targets anime viewers and manga readers, the overall faithfulness of the live action adaptation means that the article should make sense to live action viewers as well.\r\n\r\nRomance Dawn\r\nLuffy wants to be a pirate. We aren�t told why he wants this, but Shanks�s crew gives us some clues.",
+      "author": "oda",
+      "is_published": true,
+      "image": "posts/1_pg-SjlRLuqfJ-zP8444Tog.webp",
+      "created_at": "2026-05-12T06:41:07.695Z",
+      "updated_at": "2026-05-12T06:41:07.695Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 22,
+    "fields": {
+      "title": "How bad do you want it? (Roronoa Zoro)",
+      "category": 15,
+      "description": "As a Gen Z, I can confidently say that we�re not on an easy boat financially. Back as kids, much like generations before us, we grew up with parents naturally telling us that our foolish dreams and careers weren�t viable options. Our life ��should�� look like going to university, getting a degree, going into the first job that accepts us, maybe getting a promotion, a mortgage, building a comfy family, year-end bonuses with holidays, and maybe even retiring early if we�re lucky.\r\n\r\nYet if we look around us right now?\r\n\r\nThe job crisis is only growing more rampant, with being rejected by a local supermarket with a Bachelor�s degree on hand having become the norm. Meanwhile, our inflation is ballooning, and just getting by is becoming an uphill battle. This was probably not the life we were told to live by our parents, that THIS was the world we would inherit.\r\n\r\nBut I�m not here to complain about this stuff, not because it�s untrue, but because I decided to go for an alternative that many of our generation are starting to hop on: if the ��world�� as it is isn�t going to give us an easy living by following society�s rules, then we might as well commit to those impossible dreams we had as children. Because, if we�re being honest, what really is there to lose?\r\n\r\nBut how can we really commit to something with reckless abandon and all the odds against us? We�re being distracted by our social media, burnt out from stress about the state of the world, and tired of hearing how things aren�t getting better. How can we follow through on those foolish dreams in a world that feels like it wants to eat us up alive for breakfast?\r\n\r\nWell, when it comes to foolish ambitions, there is only one man that comes to mind: Roronoa Zoro from One Piece and his dream to become ��The World�s Greatest Swordsman��.\r\n\r\nIn the context of One Piece, Zoro�s dream is by far one of the wildest in the story. He doesn�t just dream to be a great fighter, doesn�t dream to beat just one man, but become the very greatest who ever lived. It�s a dream he has shown he would rather die for than leave behind. But what story lies behind this man that could make him so driven?",
+      "author": "oda",
+      "is_published": true,
+      "image": "posts/0_0cc1VG3XFWbPQhFS.webp",
+      "created_at": "2026-05-12T06:42:09.572Z",
+      "updated_at": "2026-05-12T06:42:09.572Z"
+    }
+  },
+  {
+    "model": "posts.post",
+    "pk": 23,
+    "fields": {
+      "title": "Attack on Titan Part 2: It�s Traumatic, The World Is Broken!",
+      "category": 15,
+      "description": "In moments of desperation, choices become cruel\r\n\r\nImagine a series that starts off so confusing, so layered, and so intense that you can�t stop digging deeper into its world. That�s exactly what Attack on Titan (AoT) did to me. So much so that for the first time in my writing journey, I am creating a sequel to one of my own articles about it.\r\n\r\nYes, a sequel! Sometimes after watching anime for hours, I genuinely feel that my writer�s mind wants to create something as complex and extraordinary as AoT.\r\n\r\nAfter finishing three seasons, I can say that most of the core mysteries have finally unraveled. And honestly, I never expected the story to take such a shocking turn. The political layers, the propaganda, the innocence of hatred, the moral dilemmas, everything is crafted so meticulously that it�s nearly impossible not to get emotionally tangled in it.\r\n\r\nHere�s what I�ve understood about the Attack on Titan world� and what it reflects about our real world.\r\n\r\nTitans Are Just Puppets or Victims of the Powerful!",
+      "author": "kisimoto",
+      "is_published": true,
+      "image": "posts/1_athVLhlNSDUVOninn_QiTA.webp",
+      "created_at": "2026-05-12T06:44:26.056Z",
+      "updated_at": "2026-05-12T06:44:26.056Z"
+    }
+  }
+]

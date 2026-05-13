@@ -1,0 +1,47 @@
+[
+  {
+    "model": "posts.category",
+    "pk": 11,
+    "fields": {
+      "name": "ai",
+      "created_at": "2026-05-12T06:26:09.994Z",
+      "updated_at": "2026-05-12T06:26:09.994Z"
+    }
+  },
+  {
+    "model": "posts.category",
+    "pk": 12,
+    "fields": {
+      "name": "health",
+      "created_at": "2026-05-12T06:30:11.094Z",
+      "updated_at": "2026-05-12T06:30:11.094Z"
+    }
+  },
+  {
+    "model": "posts.category",
+    "pk": 13,
+    "fields": {
+      "name": "nature",
+      "created_at": "2026-05-12T06:33:44.351Z",
+      "updated_at": "2026-05-12T06:33:44.351Z"
+    }
+  },
+  {
+    "model": "posts.category",
+    "pk": 14,
+    "fields": {
+      "name": "coding",
+      "created_at": "2026-05-12T06:36:11.925Z",
+      "updated_at": "2026-05-12T06:36:11.925Z"
+    }
+  },
+  {
+    "model": "posts.category",
+    "pk": 15,
+    "fields": {
+      "name": "anime",
+      "created_at": "2026-05-12T06:40:17.728Z",
+      "updated_at": "2026-05-12T06:40:17.728Z"
+    }
+  }
+]
