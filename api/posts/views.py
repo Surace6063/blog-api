@@ -3,6 +3,7 @@ from .models import Category, Post
 from .serializers import CategorySerializer, PostSerializer
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import SearchFilter,OrderingFilter
+from .pagination import CustomPagination
 
 
 # GET and POST request
@@ -14,6 +15,7 @@ class CategoryListCreateView(ListCreateAPIView):
     filter_backends = [DjangoFilterBackend,SearchFilter,OrderingFilter]
     search_fields = ['name']
     ordering_fields = ['name']
+    pagination_class = CustomPagination
     
 
 # RetrieveUpdateDestroyAPIView -> GET(single data), PATCH/PUT and DELETE request
@@ -35,6 +37,8 @@ class PostListCreateView(ListCreateAPIView):
     filterset_fields = ['category__name','author','is_published']
     search_fields = ['title','description']
     ordering_fields = ['created_at','title']
+    
+    pagination_class = CustomPagination
     
 
 # RetrieveUpdateDestroyAPIView -> GET(single data), PATCH/PUT and DELETE request

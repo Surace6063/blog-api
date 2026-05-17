@@ -1,4 +1,4 @@
-import os 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -26,12 +26,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+
     # third-part app
     "rest_framework",
     'django_filters',
-    
-    
+
+
     # app
     'posts',
     'users'
@@ -41,6 +41,8 @@ REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': (
         'django_filters.rest_framework.DjangoFilterBackend',
     ),
+    # 'DEFAULT_PAGINATION_CLASS':'rest_framework.pagination.PageNumberPagination',
+    # 'PAGE_SIZE': 5,  # default page size
 }
 
 
@@ -121,5 +123,5 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-MEDIA_URL = '/media/' 
+MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
