@@ -7,7 +7,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     # posts urls
-    path('api/',include('posts.urls'))
+    path('api/',include('posts.urls')),
+    
+    # users urls
+    path('api/auth/',include('users.urls')),
+    
 ]
 
 
