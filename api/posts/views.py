@@ -4,7 +4,7 @@ from .serializers import CategorySerializer, PostSerializer
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import SearchFilter,OrderingFilter
 from .pagination import CustomPagination
-
+from .permissions import ReadOnlyorAdmin
 
 # GET and POST request
 # ListCreateAPIView  -> use for both getting all categories and create new category
@@ -16,6 +16,7 @@ class CategoryListCreateView(ListCreateAPIView):
     search_fields = ['name']
     ordering_fields = ['name']
     pagination_class = CustomPagination
+    permission_classes = [ReadOnlyorAdmin]
     
 
 # RetrieveUpdateDestroyAPIView -> GET(single data), PATCH/PUT and DELETE request
@@ -24,6 +25,7 @@ class CategoryListCreateView(ListCreateAPIView):
 class CategoryRetriveUpdateDistroyView(RetrieveUpdateDestroyAPIView):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
+    permission_classes = [ReadOnlyorAdmin]
 
 
 
@@ -39,6 +41,7 @@ class PostListCreateView(ListCreateAPIView):
     ordering_fields = ['created_at','title']
     
     pagination_class = CustomPagination
+    permission_classes = [ReadOnlyorAdmin]
     
 
 # RetrieveUpdateDestroyAPIView -> GET(single data), PATCH/PUT and DELETE request
@@ -47,6 +50,7 @@ class PostListCreateView(ListCreateAPIView):
 class PostRetriveUpdateDistroyView(RetrieveUpdateDestroyAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+    permission_classes = [ReadOnlyorAdmin]
 
 
 
